@@ -1,0 +1,26 @@
+{
+  "name": "zeerna-ui",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "description": "Simple and Accessible UI components for React Applications",
+  "keywords": [
+    "design",
+    "system",
+    "components",
+    "stitches",
+    "typescript",
+    "storybook",
+    "react",
+    "ui",
+    "zeerna"
+  ],
+  "repository": "git@github.com:elicavalheiro/zeerna-ui.git",
+  "author": "Eli Cavalheiro <elimara.ac@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@stitches/react": "^1.2.5",
+    "lerna": "^4.0.0"
+  }
+}
