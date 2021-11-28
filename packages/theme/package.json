@@ -31,7 +31,7 @@
     "compile": "rollup -c",
     "test": "jest --verbose --passWithNoTests",
     "test:watch": "jest --watch",
-    "publish": "lerna publish"
+    "publish": "npm publish --access public"
   },
   "bugs": {
     "url": "https://github.com/elicavalheiro/zeerna-ui/issues"
@@ -64,5 +64,5 @@
   "dependencies": {
     "json5": "^1.0.1"
   },
-  "gitHead": "4dc1fe46a5e424180eddcd45065da20eeefec18b"
+  "gitHead": "83e6765f93400bd163e02cb30dd74e0d6f89a157"
 }
