@@ -13,3 +13,9 @@ package.json
 yarn-error.log
 yarn.lock
 .eslintrc.json
+
+lib
+example
+!.storybook
+!.jest
+packages/**/dist

@@ -30,7 +30,8 @@
     "lib:start": "ts-node -r tsconfig-paths/register src/index.ts",
     "compile": "rollup -c",
     "test": "jest --verbose --passWithNoTests",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "publish": "lerna publish"
   },
   "bugs": {
     "url": "https://github.com/elicavalheiro/zeerna-ui/issues"
