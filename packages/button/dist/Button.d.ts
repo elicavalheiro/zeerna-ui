@@ -1,6 +1,6 @@
 import * as React from 'react';
-import * as S from './Button.styles';
 import { As } from '@zeerna-ui/utils';
+import * as S from './Button.styles';
 export declare type ButtonOptions = {
     /**
      * The HTML button type
