@@ -1,15 +1,15 @@
 import { create } from '@storybook/theming';
 
 export default create({
-  base: 'light',
+  base: 'dark',
 
   // Base Colors
   colorSecondary: '#E5484D',
 
   // UI
   appBg: 'white',
-  appContentBg: 'white',
-  appBorderColor: '#EDEDEF',
+  appContentBg: '#232326',
+  appBorderColor: '#3E3E44',
   appBorderRadius: 4,
 
   // Typography
@@ -17,18 +17,18 @@ export default create({
   fontCode: 'Söhne Mono, menlo, monospace',
 
   // Text colors
-  textColor: '#242424',
+  textColor: '#EDEDEF',
   textInverseColor: 'rgba(255,255,255,0.9)',
 
   // Toolbar default and active colors
   barTextColor: 'silver',
   barSelectedColor: '#E5484D',
-  barBg: '#EDEDEF',
+  barBg: '#1C1C1F',
 
   // Form colors
-  inputBg: 'white',
-  inputBorder: 'silver',
-  inputTextColor: 'black',
+  inputBg: '#34343A',
+  inputBorder: '#3E3E44',
+  inputTextColor: '#EDEDEF',
   inputBorderRadius: 4,
 
   // Branding
