@@ -27,6 +27,11 @@
     "prepare": "husky install",
     "commitmsg": "prepare-commit-msg"
   },
+  "lint-staged": {
+    "packages/**/src/*": [
+      "yarn lint"
+    ]
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
