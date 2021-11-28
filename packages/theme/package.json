@@ -25,7 +25,7 @@
     "url": "git+https://github.com/elicavalheiro/zeerna-ui.git"
   },
   "scripts": {
-    "npm build": "npm run compile",
+    "build": "npm run compile",
     "prepublishOnly": "npm run build",
     "lib:start": "ts-node -r tsconfig-paths/register src/index.ts",
     "compile": "rollup -c",
@@ -60,5 +60,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "9c4b2e96ca9cff2092a9d6599664009e9c86e571"
 }
