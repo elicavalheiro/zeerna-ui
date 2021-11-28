@@ -1,6 +1,6 @@
 {
   "name": "@zeerna-ui/hooks",
-  "version": "1.0.5-alpha.0",
+  "version": "2.0.0-alpha.0",
   "description": "A custom React Hooks collection to power up Zeerna UI components.",
   "keywords": [
     "hooks",

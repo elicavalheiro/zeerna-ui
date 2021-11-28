@@ -1,6 +1,6 @@
 {
   "name": "@zeerna-ui/button",
-  "version": "1.0.5-alpha.0",
+  "version": "2.0.0-alpha.0",
   "description": "A React component that is a base button",
   "keywords": [
     "button",
@@ -38,9 +38,9 @@
     "publish": "lerna publish"
   },
   "dependencies": {
-    "@zeerna-ui/theme": "^1.0.5-alpha.0",
-    "@zeerna-ui/hooks": "^1.0.5-alpha.0",
-    "@zeerna-ui/utils": "^1.0.5-alpha.0"
+    "@zeerna-ui/hooks": "^2.0.0-alpha.0",
+    "@zeerna-ui/theme": "^2.0.0-alpha.0",
+    "@zeerna-ui/utils": "^2.0.0-alpha.0"
   },
   "devDependencies": {
     "@testing-library/dom": "^8.1.0",

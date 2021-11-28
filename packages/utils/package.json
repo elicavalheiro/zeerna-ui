@@ -1,6 +1,6 @@
 {
   "name": "@zeerna-ui/utils",
-  "version": "1.0.5-alpha.0",
+  "version": "2.0.0-alpha.0",
   "description": "A colletion of common utilities, types and helpers to power up Zeerna UI components",
   "keywords": [
     "utilities",
