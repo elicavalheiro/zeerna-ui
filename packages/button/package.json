@@ -38,7 +38,9 @@
     "publish": "lerna publish"
   },
   "dependencies": {
-    "@zeerna-ui/theme": "^1.0.5-alpha.0"
+    "@zeerna-ui/theme": "^1.0.5-alpha.0",
+    "@zeerna-ui/hooks": "^1.0.5-alpha.0",
+    "@zeerna-ui/utils": "^1.0.5-alpha.0"
   },
   "devDependencies": {
     "@testing-library/dom": "^8.1.0",

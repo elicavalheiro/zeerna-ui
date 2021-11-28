@@ -1,4 +1,7 @@
-export declare const ButtonContainer: import("@stitches/react/types/styled-component").StyledComponent<"button", {}, {
+import { VariantProps } from '@stitches/react';
+export declare const ButtonContainer: import("@stitches/react/types/styled-component").StyledComponent<"button", {
+    variationType?: "primary" | "secondary" | "rounded" | "ghost" | undefined;
+}, {
     sm: "(min-width: 640px)";
     md: "(min-width: 768px)";
     lg: "(min-width: 1024px)";
@@ -213,3 +216,4 @@ export declare const ButtonContainer: import("@stitches/react/types/styled-compo
         backgroundImage: string;
     };
 }>>;
+export declare type ButtonContainerVariants = VariantProps<typeof ButtonContainer>;
