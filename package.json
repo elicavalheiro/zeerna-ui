@@ -5,7 +5,6 @@
     "packages/*"
   ],
   "description": "Simple and Accessible UI components for React Applications",
-  
   "keywords": [
     "design",
     "system",
@@ -18,15 +17,24 @@
     "zeerna"
   ],
   "scripts": {
+    "dev": "yarn run storybook",
     "lib:build": "lerna run build",
     "compile": "lerna run compile --stream",
-    "publishAll": "lerna run publish"
+    "publishAll": "lerna run publish",
+    "storybook": "start-storybook"
   },
   "repository": "git@github.com:elicavalheiro/zeerna-ui.git",
   "author": "Eli Cavalheiro <elimara.ac@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.16.0",
     "@stitches/react": "^1.2.5",
+    "@storybook/react": "^6.4.0",
+    "babel-loader": "^8.2.3",
     "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
