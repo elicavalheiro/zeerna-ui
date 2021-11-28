@@ -17,6 +17,6 @@ export {
   theme,
   zIndices,
   media,
-} from './Theme.provider'
+} from './Theme.provider';
 
 export type { CSS } from './Theme.provider';
