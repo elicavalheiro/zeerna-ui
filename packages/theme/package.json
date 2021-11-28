@@ -29,5 +29,8 @@
   },
   "devDependencies": {
     "@radix-ui/colors": "^0.1.7"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
