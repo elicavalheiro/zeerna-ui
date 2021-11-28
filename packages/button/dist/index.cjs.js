@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("react"),t=require("@zeerna-ui/theme");function r(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}var u=r(e),n=t.styled("button",{});exports.Button=function(){return u.default.createElement(n,null,"Test")};
