@@ -1,5 +1,6 @@
 {
   "name": "zeerna-ui",
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
@@ -20,8 +21,8 @@
     "lib:build": "lerna run build",
     "compile": "lerna run compile --stream",
     "publish": "lerna publish",
-    "storybook": "start-storybook",
-    "lint": "eslint packages/**/src/*.{ts,tsx}",
+    "storybook": "start-storybook -p 3334",
+    "lint": "eslint packages/**/src/*.{ts,tsx} --fix",
     "format": "prettier --write packages/**/src/*.{ts,tsx}",
     "prepare": "husky install",
     "commitmsg": "prepare-commit-msg",
@@ -45,6 +46,7 @@
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",
     "@stitches/react": "^1.2.5",
+    "@storybook/addons": "^6.4.0",
     "@storybook/react": "^6.4.0",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^4.33.0",
