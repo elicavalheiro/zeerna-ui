@@ -1,6 +1,6 @@
 {
   "name": "@zeerna-ui/theme",
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.0",
   "description": "A theme provider that makes theming and styling easier",
   "keywords": [
     "theme",
