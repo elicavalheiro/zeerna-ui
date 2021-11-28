@@ -1,0 +1,42 @@
+{
+  "name": "@zeerna-ui/hooks",
+  "version": "1.0.5-alpha.0",
+  "description": "A custom React Hooks collection to power up Zeerna UI components.",
+  "keywords": [
+    "hooks",
+    "react",
+    "typescript",
+    "zeerna-ui",
+    "utilities"
+  ],
+  "author": "elicavalheiro <elimara.ac@gmail.com>",
+  "homepage": "https://github.com/elicavalheiro/zeerna-ui",
+  "license": "MIT",
+  "source": "dist/index.cjs.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elicavalheiro/zeerna-ui.git"
+  },
+  "scripts": {
+    "build": "yarn run compile",
+    "prepublishOnly": "yarn run build",
+    "lib:start": "ts-node -r tsconfig-paths/register src/index.ts",
+    "compile": "rollup -c",
+    "test": "jest --verbose --passWithNoTests",
+    "test:watch": "jest --watch",
+    "publish": "lerna publish"
+  },
+  "bugs": {
+    "url": "https://github.com/elicavalheiro/zeerna-ui/issues"
+  }
+}
