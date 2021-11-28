@@ -12,16 +12,11 @@ export const parameters = {
   options: {
     storySort: {
       order: [
-        'Introdução',
-        ['Sobre o Cavilha'],
-        'Guidelines',
-        ['Temas e cores', 'Tipografia', 'Icones', 'Layout'],
-        'Versão 0.0.1',
-        'Review QA',
-        'Review Dev',
-        'WIP',
-        'Próximos',
-        'O Projeto',
+        'Introduction',
+        'Guides',
+        ['Theming', 'Typography', 'Icons', 'Layout'],
+        'Components',
+        'Examples',
       ],
     },
   },
