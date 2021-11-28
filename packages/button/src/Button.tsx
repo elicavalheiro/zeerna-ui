@@ -1,7 +1,7 @@
 import * as React from 'react';
-import * as S from './Button.styles';
 import { As, forwardRef } from '@zeerna-ui/utils';
 import { useButtonType } from '@zeerna-ui/hooks';
+import * as S from './Button.styles';
 
 export type ButtonOptions = {
   /**
