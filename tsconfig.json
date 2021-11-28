@@ -5,7 +5,9 @@
     "paths": {
       "@zeerna-ui/*": ["*/src"],
       "@zeerna-ui/theme": ["theme/src"],
-      "@zeerna-ui/button": ["button/src"]
+      "@zeerna-ui/button": ["button/src"],
+      "@zeerna-ui/hooks": ["hooks/src"],
+      "@zeerna-ui/utils": ["utils/src"]
     }
   },
 }
