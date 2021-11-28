@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.build.json",
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "paths": {
+      "@zeerna-ui/theme": ["theme/src"],
+      "@zeerna-ui/*": ["*/src"]
+    }
+  }
+}

@@ -5,6 +5,7 @@
     "packages/*"
   ],
   "description": "Simple and Accessible UI components for React Applications",
+  
   "keywords": [
     "design",
     "system",
@@ -16,6 +17,11 @@
     "ui",
     "zeerna"
   ],
+  "scripts": {
+    "lib:build": "lerna run build",
+    "compile": "lerna run compile --stream",
+    "publishAll": "lerna run publish"
+  },
   "repository": "git@github.com:elicavalheiro/zeerna-ui.git",
   "author": "Eli Cavalheiro <elimara.ac@gmail.com>",
   "license": "MIT",
