@@ -25,7 +25,8 @@
     "lint": "eslint packages/**/src/*.{ts,tsx}",
     "format": "prettier --write packages/**/src/*.{ts,tsx}",
     "prepare": "husky install",
-    "commitmsg": "prepare-commit-msg"
+    "commitmsg": "prepare-commit-msg",
+    "prepare:commit": "yarn run lint && yarn run format"
   },
   "lint-staged": {
     "packages/**/src/*": [
