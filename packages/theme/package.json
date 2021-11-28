@@ -61,5 +61,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "2a51d25e4be65d0f60988d401f24b8340c31deb6"
+  "dependencies": {
+    "json5": "^1.0.1"
+  }
 }
